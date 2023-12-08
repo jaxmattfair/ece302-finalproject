@@ -62,7 +62,7 @@ def part2(display=True):
         plt.show()
         
         plt.hist(part2_means, num_bins, density=True)
-        plt.title('Normal Distribution Sample Means')
+        plt.title('Part 2 Sample Means')
         plt.xlabel('Sample Means')
         plt.ylabel('Relative Frequency')
         plt.show()
